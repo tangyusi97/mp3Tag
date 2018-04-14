@@ -1,0 +1,33 @@
+{
+  "name": "mp3tag",
+  "version": "1.0.0",
+  "description": "Automaticly Match Music Tags",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "author": "Tangyusi",
+  "license": "ISC",
+  "dependencies": {
+    "browser-id3-writer": "^4.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie": "^0.3.1",
+    "ffmpeg-static": "^2.2.0",
+    "ffprobe-static": "^2.0.0",
+    "he": "^1.1.1",
+    "iconv-lite": "^0.4.19",
+    "jsmediatags": "^3.8.1",
+    "json5": "^1.0.1",
+    "md5": "^2.2.1",
+    "remove-id3v1": "^1.1.1",
+    "request": "^2.85.0",
+    "stringify-object": "^3.2.2"
+  },
+  "bin": {
+    "mp3tag": "main.js"
+  }
+}
